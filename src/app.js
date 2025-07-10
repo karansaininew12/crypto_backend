@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/api', cryptoRoutes);
 
 // Database connection
-dbConfig()
+// dbConfig()
 
 // Start the server
 app.listen(PORT, () => {
